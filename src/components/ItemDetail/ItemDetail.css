@@ -1,0 +1,17 @@
+.itemDetail {
+    width: 600px;
+    float: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+.itemDescripcion {
+    font: size 20px;
+    font-weight: bold;
+    padding-top: 50px;
+     
+}
+
+.finalCompra {
+    display: none;
+}
