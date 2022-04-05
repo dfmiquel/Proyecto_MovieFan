@@ -1,8 +1,8 @@
 import { Fragment, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { ItemDetail } from '../../components/ItemDetail/ItemDetail'
-import { Loading } from '../../components/Loading/loading'
-import { dataBase } from '../../Firebase/firebase'
+import { ItemDetail } from '../itemDetail/itemDetail'
+import { Loading } from '../loading/loading'
+import { dataBase } from '../../firebase/firebase'
 
 export const ItemDetailContainer = () => {
 	const { id } = useParams()

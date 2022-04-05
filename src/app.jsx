@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { NavBar } from './components/navBar/navBar'
-import { ItemListContainer } from './pages/ItemListContainer/ItemListContainer'
-import { ItemDetailContainer } from './pages/ItemDetailContainer/itemDetailContainer'
-import '../src/App.css'
-import { CartProvider } from './CartContext/CartContext'
-import { Cart } from './components/Cart/cart'
-import { Checkout } from './components/Checkout/checkout'
-import { NotFound } from './components/NotFound/notFound'
+import { ItemListContainer } from './components/itemListContainer/itemListContainer'
+import { ItemDetailContainer } from './components/itemDetailContainer/itemDetailContainer'
+import '../src/app.css'
+import { CartProvider } from './cartContext/cartContext'
+import { Cart } from './components/cart/cart'
+import { Checkout } from './components/checkout/checkout'
+import { NotFound } from './components/notFound/notFound'
 
 export const App = () => {
-	const welcome = 'HELLO BABES!'
+	const welcome = 'Hola MovieManiacos!!!!!!!'
 	const sayHello =
-		'Te invitamos a que chusmees todo lo que tenemos para ofrecerte'
+		'Te invitamos a encontrar eso que mas te gusta en nuestra tienda de Peliculas'
 
 	return (
 		<CartProvider>

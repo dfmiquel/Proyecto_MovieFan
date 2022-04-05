@@ -1,9 +1,9 @@
-import './ItemListContainer.css'
+import './itemListContainer.css'
 import { useState, useEffect } from 'react'
-import { ItemList } from '../../components/ItemList/ItemList'
+import { ItemList } from '../../components/itemList/itemList.jsx'
 import { useParams } from 'react-router-dom'
-import { Loading } from '../../components/Loading/loading'
-import { dataBase } from '../../Firebase/firebase'
+import { Loading } from '../../components/loading/loading'
+import { dataBase } from '../../firebase/firebase'
 
 export const ItemListContainer = (props) => {
 	const { categoryId } = useParams()

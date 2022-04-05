@@ -1,9 +1,9 @@
 
-import { dataBase } from '../../Firebase/firebase'
-import { CartContext } from '../../CartContext/CartContext'
+import { dataBase } from '../../firebase/firebase'
+import { CartContext } from '../../cartContext/cartContext'
 import { Fragment, useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Loading } from '../Loading/loading'
+import { Loading } from '../loading/loading'
 
 export const Checkout = () => {
 const {cart, clear, totalDeItems,cartQuantity } = useContext(CartContext)

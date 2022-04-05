@@ -1,8 +1,8 @@
-import '../ItemDetail/ItemDetail.css'
-import { ItemCount } from '../ItemCount/ItemCount'
+import './itemDetail.css'
+import { ItemCount } from '../itemCount/itemCount'
 import { useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { CartContext } from '../../CartContext/CartContext'
+import { CartContext } from '../../cartContext/cartContext'
 
 export const ItemDetail = ({ item }) => {
 	const [botonActivo, setBotonActivo] = useState(false)
