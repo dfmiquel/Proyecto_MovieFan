@@ -18,11 +18,11 @@ export const Cart =() => {
             { carrito && cart.map(obj =>
             <div key={obj.item.id}>
               <ul>
-                  <li>Detalle del Producto: {obj.item.descripcion}</li>
+                  <li>Detalle del Producto: {obj.item.description}</li>
                   <li>Categoría: {obj.item.category}</li>
-                  <li>Precio por unidad: {(obj.item.precio)}</li>
+                  <li>Precio por unidad: {(obj.item.price)}</li>
                   <li>Cantidad {(obj.quantity)}</li>
-                  <li> Total $ {(obj.quantity)*(obj.item.precio)}</li>
+                  <li> Total $ {(obj.quantity)*(obj.item.price)}</li>
                   <li><button onClick={()=>{removeItem(obj.item.id)}}>Eliminar el item</button></li>
                </ul>
             </div>

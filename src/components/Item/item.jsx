@@ -7,7 +7,7 @@ export const Item = ({ item }) => {
          <section id={item.id} className="itemContainer">
               <img className="images" src={item.pictureUrl} alt="img"/>
               <span className="itemPrice">{item.title}</span>
-            <p className="itemPrice">{item.precio}</p>
+            <p className="itemPrice">{item.price}</p>
           </section>
        </Link>
     )

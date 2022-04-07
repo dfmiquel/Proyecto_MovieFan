@@ -54,7 +54,7 @@ export const CartProvider = ({children}) => {
       //suma el total con useEffect
 
       useEffect(()=>{
-       const totalItems = cart.map(({item, quantity})=>item.precio * quantity).reduce(
+       const totalItems = cart.map(({item, quantity})=>item.price * quantity).reduce(
           (cartTotal, sumaItemsTotal)=> cartTotal + sumaItemsTotal, 0
       )
       setTotalDeItems(totalItems)

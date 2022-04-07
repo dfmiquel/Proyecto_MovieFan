@@ -11,9 +11,9 @@ export const ItemDetailContainer = () => {
 
 	useEffect(() => {
 		const db = dataBase
-		const itemCollection = db.collection('productos')
+		const itemCollection = db.collection('items')
 		const product = itemCollection.doc(id)
-
+		console.log("Productos", product)
 		product
 			.get()
 			.then((doc) => {

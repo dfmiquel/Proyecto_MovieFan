@@ -3,6 +3,7 @@ import { Item } from '../item/item.jsx'
 import './itemList.css'
 
 export const ItemList = ({catalogoProductos}) =>{
+    console.log("ItemList", catalogoProductos)
 
     return(
         <Fragment>
